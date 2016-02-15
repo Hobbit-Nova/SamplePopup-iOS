@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // popupview
+    @IBOutlet weak var popupView: PopupView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.popupView.btnClose.addTarget(self, action: Selector("closePopup"), forControlEvents: .TouchUpInside)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func closePopup() {
+        // popupView 숨기기
+        popupView.hidden = true
     }
 
-
+    @IBAction func actionPopup(sender: AnyObject) {
+        // popupview 보이기
+        popupView.hidden = false
+    }
 }
 

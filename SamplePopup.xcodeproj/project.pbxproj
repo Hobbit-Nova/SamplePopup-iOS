@@ -12,6 +12,8 @@
 		A70AFA9C1C6F4D9E0096BB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70AFA9A1C6F4D9E0096BB36 /* Main.storyboard */; };
 		A70AFA9E1C6F4D9E0096BB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70AFA9D1C6F4D9E0096BB36 /* Assets.xcassets */; };
 		A70AFAA11C6F4D9E0096BB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70AFA9F1C6F4D9E0096BB36 /* LaunchScreen.storyboard */; };
+		A773BE081C6F54C90094DACD /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A773BE071C6F54C90094DACD /* PopupView.xib */; };
+		A773BE0A1C6F54E80094DACD /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773BE091C6F54E80094DACD /* PopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A70AFA9D1C6F4D9E0096BB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70AFAA01C6F4D9E0096BB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A70AFAA21C6F4D9E0096BB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A773BE071C6F54C90094DACD /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		A773BE091C6F54E80094DACD /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A70AFA9D1C6F4D9E0096BB36 /* Assets.xcassets */,
 				A70AFA9F1C6F4D9E0096BB36 /* LaunchScreen.storyboard */,
 				A70AFAA21C6F4D9E0096BB36 /* Info.plist */,
+				A773BE071C6F54C90094DACD /* PopupView.xib */,
+				A773BE091C6F54E80094DACD /* PopupView.swift */,
 			);
 			path = SamplePopup;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70AFAA11C6F4D9E0096BB36 /* LaunchScreen.storyboard in Resources */,
+				A773BE081C6F54C90094DACD /* PopupView.xib in Resources */,
 				A70AFA9E1C6F4D9E0096BB36 /* Assets.xcassets in Resources */,
 				A70AFA9C1C6F4D9E0096BB36 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A773BE0A1C6F54E80094DACD /* PopupView.swift in Sources */,
 				A70AFA991C6F4D9E0096BB36 /* ViewController.swift in Sources */,
 				A70AFA971C6F4D9E0096BB36 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				A70AFAA71C6F4D9E0096BB36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
