@@ -20,12 +20,16 @@ class ViewController: UIViewController {
 
     func closePopup() {
         // popupView 숨기기
-        popupView.hidden = true
+        UIView.animateWithDuration(0.5, animations: {self.popupView.alpha = 0.0}, completion: {_ in self.popupView.hidden = true})
     }
 
     @IBAction func actionPopup(sender: AnyObject) {
         // popupview 보이기
         popupView.hidden = false
+        
+        // Animation 추가
+        self.popupView.alpha = 0.0
+        UIView.animateWithDuration(0.5, animations: {self.popupView.alpha = 1.0}, completion: nil)
     }
 }
 
